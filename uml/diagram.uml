@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="314.5833333333333" y="1296.0">Runner</node>
+    <node x="508.91526610644263" y="356.0">parts.NameCard</node>
+    <node x="146.26330532212893" y="421.0">parts.Card</node>
+    <node x="0.0" y="730.0">gui.GameField</node>
+    <node x="87.42997198879561" y="166.0">parts.Coord</node>
+    <node x="312.85539215686276" y="818.0">parts.CreatorCards</node>
+    <node x="294.0833333333333" y="1129.0">gui.JavaAcardeon</node>
+    <node x="164.29289215686285" y="0.0">parts.SizeKeeper</node>
+    <node x="356.28413865546224" y="455.0">parts.TypeCard</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="gui.GameField" target="parts.Coord">
+      <point x="-34.49999999999994" y="-169.5" />
+      <point x="103.50000000000006" y="710.0" />
+      <point x="120.93750000000006" y="710.0" />
+      <point x="120.93750000000006" y="331.0" />
+      <point x="125.76330532212893" y="331.0" />
+      <point x="-76.66666666666669" y="70.0" />
+    </edge>
+    <edge source="parts.CreatorCards" target="parts.TypeCard">
+      <point x="-21.25" y="-81.5" />
+      <point x="419.10539215686276" y="710.0" />
+      <point x="407.78413865546224" y="710.0" />
+      <point x="0.0" y="58.0" />
+    </edge>
+    <edge source="gui.GameField" target="parts.Card">
+      <point x="34.50000000000006" y="-169.5" />
+      <point x="172.50000000000006" y="710.0" />
+      <point x="169.88830532212893" y="710.0" />
+      <point x="-70.875" y="92.0" />
+    </edge>
+    <edge source="Runner" target="gui.JavaAcardeon">
+      <point x="0.0" y="-25.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="parts.Coord" target="parts.SizeKeeper">
+      <point x="5.6843418860808015E-14" y="-70.0" />
+      <point x="202.42997198879567" y="141.0" />
+      <point x="236.79289215686285" y="141.0" />
+      <point x="0.0" y="58.0" />
+    </edge>
+    <edge source="parts.Card" target="parts.Coord">
+      <point x="-47.25" y="-92.0" />
+      <point x="193.51330532212893" y="331.0" />
+      <point x="202.42997198879561" y="331.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="gui.JavaAcardeon" target="parts.SizeKeeper">
+      <point x="80.14285714285711" y="-58.5" />
+      <point x="467.7261904761904" y="1109.0" />
+      <point x="622.4152661064427" y="1109.0" />
+      <point x="622.4152661064427" y="141.0" />
+      <point x="285.12622549019625" y="141.0" />
+      <point x="48.33333333333337" y="58.0" />
+    </edge>
+    <edge source="gui.JavaAcardeon" target="parts.CreatorCards">
+      <point x="0.0" y="-58.5" />
+      <point x="387.5833333333333" y="1109.0" />
+      <point x="376.60539215686276" y="1109.0" />
+      <point x="-63.75" y="81.5" />
+    </edge>
+    <edge source="gui.JavaAcardeon" target="parts.NameCard">
+      <point x="53.428571428571445" y="-58.5" />
+      <point x="441.01190476190476" y="1099.0" />
+      <point x="587.9803921568628" y="1099.0" />
+      <point x="587.9803921568628" y="710.0" />
+      <point x="594.748599439776" y="710.0" />
+      <point x="34.33333333333334" y="157.0" />
+    </edge>
+    <edge source="gui.GameField" target="parts.SizeKeeper">
+      <point x="-103.49999999999994" y="-169.5" />
+      <point x="34.50000000000006" y="710.0" />
+      <point x="67.60539215686282" y="710.0" />
+      <point x="67.60539215686282" y="141.0" />
+      <point x="188.45955882352953" y="141.0" />
+      <point x="-48.333333333333314" y="58.0" />
+    </edge>
+    <edge source="parts.CreatorCards" target="parts.Card">
+      <point x="-63.75" y="-81.5" />
+      <point x="376.60539215686276" y="690.0" />
+      <point x="311.63830532212893" y="690.0" />
+      <point x="70.875" y="92.0" />
+    </edge>
+    <edge source="parts.CreatorCards" target="parts.NameCard">
+      <point x="63.75" y="-81.5" />
+      <point x="504.10539215686276" y="710.0" />
+      <point x="526.0819327731093" y="710.0" />
+      <point x="-34.333333333333336" y="157.0" />
+    </edge>
+    <edge source="gui.JavaAcardeon" target="gui.GameField">
+      <point x="-80.14285714285714" y="-58.5" />
+      <point x="307.4404761904762" y="1109.0" />
+      <point x="69.0" y="1109.0" />
+      <point x="-69.0" y="169.5" />
+    </edge>
+    <edge source="gui.JavaAcardeon" target="parts.TypeCard">
+      <point x="-26.714285714285666" y="-58.5" />
+      <point x="360.86904761904765" y="1089.0" />
+      <point x="302.35539215686276" y="1089.0" />
+      <point x="302.35539215686276" y="710.0" />
+      <point x="373.4508053221289" y="710.0" />
+      <point x="-34.33333333333334" y="58.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="311.6666666666667" y="116.33333333333331" />
+  <SelectedNodes>
+    <node>parts.TypeCard</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
